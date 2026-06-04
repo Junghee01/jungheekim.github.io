@@ -22,7 +22,7 @@ I am interested in developing data-driven and learning-based approaches for tran
 ## Projects
 
 **COVID-19 Mobility Pattern Clustering**  
-Identified distinct mobility behavior patterns across different phases of COVID-19 using DTW-based clustering on large-scale subway ridership data (232 stations in Seoul). The study revealed heterogeneous recovery trends and enabled region-specific policy recommendations. ([Paper](https://www.jkst.or.kr/media/sites/kst/2025-043-01/N0210430102/N0210430102.pdf))
+Identified distinct mobility behavior patterns across different phases of COVID-19 using DTW-based hierarchical clustering on large-scale subway ridership data (232 stations in Seoul). The study revealed heterogeneous recovery trends and enabled region-specific policy recommendations. ([Paper](https://www.jkst.or.kr/media/sites/kst/2025-043-01/N0210430102/N0210430102.pdf))
 
 **Deep Learning-based Mobility Prediction (Independent Project)**  
 Implemented and extended a CNN-based traffic speed prediction model by adapting prior research to Seoul road networks, and evaluated model performance across forecasting horizons, input settings, and network depth.([GitHub](https://github.com/junghee01/data-science-portfolio))
