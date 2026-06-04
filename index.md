@@ -22,13 +22,13 @@ I am interested in developing data-driven and learning-based approaches for tran
 ## Projects
 
 **COVID-19 Mobility Pattern Clustering**  
-Identified distinct mobility behavior patterns across different phases of COVID-19 by applying DTW-based clustering to large-scale subway ridership data (232 stations), and proposed region-specific policy strategies based on these patterns.
+Identified distinct mobility behavior patterns across different phases of COVID-19 by applying DTW-based clustering to large-scale subway ridership data (232 stations), and proposed region-specific policy strategies based on these patterns. [Paper](https://www.jkst.or.kr/media/sites/kst/2025-043-01/N0210430102/N0210430102.pdf)
 
 **Deep Learning-based Mobility Prediction (Independent Project)**  
 Implemented and extended a CNN-based traffic speed prediction model by adapting prior research to Seoul road networks, and evaluated model performance across forecasting horizons, input settings, and network depth.([GitHub](https://github.com/junghee01/data-science-portfolio))
 
 **Event-aware Transit Demand Prediction**  
-Developed and deployed a two-stage XGBoost-based framework for predicting metro congestion during large-scale events, integrating weather and demand data, achieving up to 98% accuracy, and identifying tipping points in ridership sensitivity.
+Developed and deployed a two-stage XGBoost-based framework for predicting metro congestion during large-scale events, integrating weather and demand data, achieving up to 98% accuracy, and identifying tipping points in ridership sensitivity. (Manuscript under review)
 
 ## Publications
 1. Kim, J., Lee, H., Kim, S., & Yoon, Y. (2025). "Time Series Cluster Analysis of Seoul Subway        Usage Patterns under COVID-19 Based on Dynamic Time Warping." Journal of the Korean        Society of Transportation (Peer-reviewed), Vol. 43, No. 1, pp. 15-37.
