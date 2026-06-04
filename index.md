@@ -25,7 +25,7 @@ I am interested in developing data-driven and learning-based approaches for tran
 Identified distinct mobility behavior patterns across different phases of COVID-19 by applying DTW-based clustering to large-scale subway ridership data (232 stations), and proposed region-specific policy strategies based on these patterns.
 
 **Deep Learning-based Mobility Prediction (Independent Project)**  
-Implemented and extended a CNN-based traffic speed prediction model by adapting prior research to Seoul road networks, and evaluated model performance across forecasting horizons, input settings, and network depth.
+Implemented and extended a CNN-based traffic speed prediction model by adapting prior research to Seoul road networks, and evaluated model performance across forecasting horizons, input settings, and network depth.([GitHub](https://github.com/junghee01/data-science-portfolio))
 
 **Event-aware Transit Demand Prediction**  
 Developed and deployed a two-stage XGBoost-based framework for predicting metro congestion during large-scale events, integrating weather and demand data, achieving up to 98% accuracy, and identifying tipping points in ridership sensitivity.
