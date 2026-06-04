@@ -38,5 +38,5 @@ Developed and deployed a two-stage XGBoost-based framework for predicting metro 
 (Add CV link later)
 
 ## Contact
-Email: jung220901@gmail.com
+Email: jung220901@gmail.com /
 GitHub: https://github.com/junghee01
