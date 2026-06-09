@@ -29,7 +29,7 @@ Implemented and extended a CNN-based traffic speed prediction model by adapting 
 
 ## Project
 **Event-aware Transit Demand Prediction**  
-Developed and deployed a two-stage XGBoost-based framework for predicting metro congestion during large-scale events, integrating weather and demand data, achieving up to 98% accuracy, and identifying tipping points in ridership sensitivity. (Industry project · Confidential dataset · [See extended abstract for details](https://jungheekim.github.io/JungheeKim( A Weather-Integrated Two-Stage XGBoost Framework for Subway Congestion Forecasting Under Large Events and Weather Threshold Analysis).pdf))
+Developed and deployed a two-stage XGBoost-based framework for predicting metro congestion during large-scale events, integrating weather and demand data, achieving up to 98% accuracy, and identifying tipping points in ridership sensitivity. (Industry project · Confidential dataset · [See extended abstract for details](./JungheeKim( A Weather-Integrated Two-Stage XGBoost Framework for Subway Congestion Forecasting Under Large Events and Weather Threshold Analysis).pdf)
 
 
 ## Publications
