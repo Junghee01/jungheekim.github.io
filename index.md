@@ -29,7 +29,7 @@ Implemented and extended a CNN-based traffic speed prediction model by adapting 
 
 ## Project
 **Event-aware Transit Demand Prediction**  
-Developed and deployed a two-stage XGBoost-based framework for predicting metro congestion during large-scale events, integrating weather and demand data, achieving up to 98% accuracy, and identifying tipping points in ridership sensitivity. (Industry project · Confidential dataset · [See extended abstract PDF](https://github.com/Junghee01/jungheekim.github.io/blob/main/paper/JungheeKim(%20A%20Weather-Integrated%20Two-Stage%20XGBoost%20Framework%20for%20Subway%20Congestion%20Forecasting%20Under%20Large%20Events%20and%20Weather%20Threshold%20Analysis).pdf)]
+Developed and deployed a two-stage XGBoost-based framework for predicting metro congestion during large-scale events, integrating weather and demand data, achieving up to 98% accuracy, and identifying tipping points in ridership sensitivity. (Industry project · Confidential dataset · [See extended abstract PDF](https://github.com/Junghee01/jungheekim.github.io/blob/main/docs/JungheeKim(%20A%20Weather-Integrated%20Two-Stage%20XGBoost%20Framework%20for%20Subway%20Congestion%20Forecasting%20Under%20Large%20Events%20and%20Weather%20Threshold%20Analysis).pdf)]
 
 ## Publications
 1. Kim, J., Lee, H., Kim, S., & Yoon, Y. (2025). "Time Series Cluster Analysis of Seoul Subway        Usage Patterns under COVID-19 Based on Dynamic Time Warping." Journal of the Korean        Society of Transportation (Peer-reviewed), Vol. 43, No. 1, pp. 15-37.
