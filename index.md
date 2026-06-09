@@ -28,7 +28,7 @@ Identified distinct mobility behavior patterns across different phases of COVID-
 Implemented and extended a CNN-based traffic speed prediction model by adapting prior research to Seoul road networks, and evaluated model performance across forecasting horizons, input settings, and network depth.([GitHub](https://github.com/junghee01/data-science-portfolio))
 
 **Event-aware Transit Demand Prediction**  
-Developed and deployed a two-stage XGBoost-based framework for predicting metro congestion during large-scale events, integrating weather and demand data, achieving up to 98% accuracy, and identifying tipping points in ridership sensitivity. (Manuscript under review)
+Developed and deployed a two-stage XGBoost-based framework for predicting metro congestion during large-scale events, integrating weather and demand data, achieving up to 98% accuracy, and identifying tipping points in ridership sensitivity. (Industry project · Confidential dataset[Extended Abstract PDF])
 
 ## Publications
 1. Kim, J., Lee, H., Kim, S., & Yoon, Y. (2025). "Time Series Cluster Analysis of Seoul Subway        Usage Patterns under COVID-19 Based on Dynamic Time Warping." Journal of the Korean        Society of Transportation (Peer-reviewed), Vol. 43, No. 1, pp. 15-37.
