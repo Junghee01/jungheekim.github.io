@@ -19,8 +19,8 @@ h1 {
 
 /* 프로필 이미지 */
 .profile {
-  width: 160px;
-  border-radius: 50%;
+  width: 220px;        /* 크기 키움 */
+  border-radius: 10px; /* 네모 + 살짝 둥글게 */
   display: block;
   margin: 20px auto;
 }
