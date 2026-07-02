@@ -8,113 +8,75 @@
 
   <style>
     body {
+      font-family: Georgia, "Times New Roman", serif;
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f5f7fa;
-      color: #333;
+      background: #ffffff;
+      color: #222;
+      line-height: 1.7;
     }
 
-    /* NAVBAR */
-    nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: #0d1b2a;
-      padding: 15px 0;
-      text-align: center;
-      z-index: 1000;
+    /* CONTENT */
+    .container {
+      max-width: 800px;
+      margin: 80px auto;
+      padding: 0 20px;
     }
 
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: #4cc9f0;
-    }
-
-    /* HERO */
-    header {
-      background: linear-gradient(to right, #1b263b, #415a77);
-      color: white;
-      padding: 120px 20px 80px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 42px;
+    h1 {
+      font-size: 32px;
       margin-bottom: 10px;
     }
 
-    header p {
-      font-size: 18px;
-      opacity: 0.9;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background: #4cc9f0;
-      color: black;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    /* SECTION */
-    section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
     h2 {
-      text-align: center;
-      margin-bottom: 30px;
-      color: #1b263b;
+      margin-top: 40px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
     }
 
-    /* CARDS */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
+    a {
+      color: #0366d6;
+      text-decoration: none;
     }
 
-    .card {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    a:hover {
+      text-decoration: underline;
     }
 
-    /* ABOUT */
-    .about {
-      line-height: 1.6;
+    ul {
+      padding-left: 20px;
     }
 
-    /* GALLERY */
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px;
+    /* SIDEBAR */
+    .sidebar {
+      position: fixed;
+      top: 120px;
+      left: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
     }
 
-    .gallery img {
-      width: 100%;
-      border-radius: 10px;
+    .sidebar a {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      background: #f0f0f0;
+      padding: 8px 12px;
+      border-radius: 6px;
+      color: #333;
+      text-decoration: none;
+      transition: 0.2s;
     }
 
-    /* FOOTER */
-    footer {
-      background: #0d1b2a;
+    .sidebar a:hover {
+      background: #0366d6;
       color: white;
-      text-align: center;
-      padding: 20px;
+    }
+
+    /* MOBILE */
+    @media (max-width: 900px) {
+      .sidebar {
+        display: none;
+      }
     }
   </style>
 
@@ -122,112 +84,83 @@
 
 <body>
 
-<!-- NAV -->
+<!-- SIDEBAR -->
 
-<nav>
-  <a href="#">Home</a>
+<div class="sidebar">
   <a href="#about">About</a>
   <a href="#research">Research</a>
   <a href="#project">Project</a>
   <a href="#publications">Publications</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<!-- HERO -->
-
-<header>
-  <h1>Junghee Kim</h1>
-  <p>Machine Learning for Transportation Systems</p>
-  <p>Prospective PhD applicant focusing on mobility modeling in data-scarce environments</p>
-  <a class="btn" href="#contact">Contact Me</a>
-</header>
-
-<!-- INTERESTS -->
-
-<section>
-  <h2>Research Interests</h2>
-  <div class="grid">
-    <div class="card">Mobility Behavior Modeling</div>
-    <div class="card">ML for Resilient Transportation</div>
-    <div class="card">Network Optimization</div>
-    <div class="card">Learning under Data Scarcity</div>
-  </div>
-</section>
-
-<!-- ABOUT -->
-
-<section id="about">
-  <h2>About</h2>
-  <div class="about">
-    <p>Hello! I am Junghee Kim.</p>
-    <p>I focus on data-driven approaches for resilient transportation systems, especially in data-scarce environments and extreme situations.</p>
-    <p>I hold a master's degree from KAIST and have over six years of experience in the Korea Road Traffic Authority.</p>
-  </div>
-</section>
-
-<!-- RESEARCH -->
-
-<section id="research">
-  <h2>Research</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>COVID-19 Mobility Pattern</h3>
-      <p>DTW-based clustering on subway data (Seoul, 232 stations)</p>
-      <a href="https://www.jkst.or.kr/media/sites/kst/2025-043-01/N0210430102/N0210430102.pdf">View Paper</a>
-    </div>
-
-```
-<div class="card">
-  <h3>Deep Learning Prediction</h3>
-  <p>CNN-based traffic prediction model</p>
-  <a href="https://github.com/junghee01/data-science-portfolio">GitHub</a>
+  <a href="https://github.com/junghee01" target="_blank">GitHub</a>
 </div>
-```
 
-  </div>
-</section>
+<!-- MAIN CONTENT -->
 
-<!-- PROJECT -->
+<div class="container">
 
-<section id="project">
-  <h2>Project</h2>
-  <div class="card">
-    <h3>Event-aware Transit Demand</h3>
-    <p>XGBoost-based metro congestion prediction (98% accuracy)</p>
-  </div>
-</section>
+<h1>Junghee Kim</h1>
 
-<!-- PUBLICATIONS -->
+<p><strong>Machine Learning for Transportation Systems</strong><br>
+Prospective PhD applicant focusing on mobility modeling in data-scarce environments</p>
 
-<section id="publications">
-  <h2>Publications</h2>
-  <div class="card">
-    <p>Kim et al. (2025) Time Series Cluster Analysis of Seoul Subway Usage</p>
-    <p>Kim (2024) Master's Thesis, KAIST</p>
-  </div>
-</section>
+<h2>Research Interests</h2>
+<ul>
+  <li>Mobility Behavior Modeling</li>
+  <li>Machine Learning for Resilient Transportation Systems</li>
+  <li>Transportation Network Optimization</li>
+  <li>Learning under Data Scarcity</li>
+</ul>
 
-<!-- GALLERY (사진 추가용) -->
+<h2 id="about">About</h2>
+<p>Hello! I am Junghee Kim.</p>
 
-<section>
-  <h2>Gallery</h2>
-  <div class="gallery">
-    <img src="https://via.placeholder.com/300">
-    <img src="https://via.placeholder.com/300">
-    <img src="https://via.placeholder.com/300">
-  </div>
-</section>
+<p>
+I am interested in developing data-driven and learning-based approaches for resilient transportation systems, particularly in data-scarce environments or extreme disasters.
+</p>
 
-<!-- CONTACT -->
+<p>
+I hold a master's degree in Civil and Environmental Engineering from KAIST and have over six years of experience in the Korea Road Traffic Authority.
+</p>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: jung220901@gmail.com</p>
-</section>
+<p>
+My work experience focused on redesigning hazardous intersections through accident data analysis, geometric improvements, and traffic signal adjustments, along with traffic accident analysis using simulation and field investigations.
+</p>
 
-<footer>
-  <p>© 2026 Junghee Kim</p>
-</footer>
+<p>
+Building on this domain knowledge, I have applied machine learning to mobility data, identifying behavioral changes in subway usage during COVID-19 using DTW-based clustering and developing predictive models for transit demand.
+</p>
+
+<h2 id="research">Research</h2>
+
+<p><strong>COVID-19 Mobility Pattern Clustering</strong><br>
+Identified distinct mobility behavior patterns using DTW-based clustering on large-scale subway data (232 stations in Seoul).<br>
+<a href="https://www.jkst.or.kr/media/sites/kst/2025-043-01/N0210430102/N0210430102.pdf" target="_blank">[Paper]</a>
+</p>
+
+<p><strong>Deep Learning-based Mobility Prediction</strong><br>
+CNN-based traffic prediction model applied to Seoul road networks.<br>
+<a href="https://github.com/junghee01/data-science-portfolio" target="_blank">[GitHub]</a>
+</p>
+
+<h2 id="project">Project</h2>
+
+<p><strong>Event-aware Transit Demand Prediction</strong><br>
+Two-stage XGBoost-based framework predicting metro congestion during large-scale events with high accuracy.<br>
+<a href="https://github.com/Junghee01/jungheekim.github.io/blob/main/docs/JungheeKim.pdf" target="_blank">[Abstract PDF]</a>
+</p>
+
+<h2 id="publications">Publications</h2>
+
+<ol>
+  <li>Kim, J., Lee, H., Kim, S., & Yoon, Y. (2025). Time Series Cluster Analysis of Seoul Subway Usage Patterns under COVID-19.</li>
+  <li>Kim, J. (2024). Detecting Changes in People’s Behavior (Master’s Thesis, KAIST).</li>
+</ol>
+
+<h2>Contact</h2>
+
+<p>Email: <a href="mailto:jung220901@gmail.com">jung220901@gmail.com</a></p>
+
+</div>
 
 </body>
 </html>
