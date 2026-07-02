@@ -1,6 +1,86 @@
-<h1>Other Activities</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Other Activities</title>
 
-<p>Church Activities</p>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background: #ffffff;
+      text-align: center;
+    }
 
-<img src="images/카작1.jpg" width="300">
-<img src="images/카작2.jpg" width="300">
+    .container {
+      max-width: 900px;
+      margin: 80px auto;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 50px;
+    }
+
+    /* 이미지 3개 정렬 */
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .gallery a {
+      text-decoration: none;
+    }
+
+    .gallery img {
+      width: 250px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>Other Activities</h1>
+
+  <div class="gallery">
+
+    <!-- 1번 -->
+    <a href="Kazakhstan Field Trip.html">
+      <img src="images/카작1.jpg">
+      <div class="caption">Church Activity</div>
+    </a>
+
+    <!-- 2번 -->
+    <a href="South Korea-based field trip focused on North Korea.html">
+      <img src="images/NK4.jpg">
+      <div class="caption">Volunteer Work</div>
+    </a>
+
+    <!-- 3번 -->
+    <a href="SarangChurch.html">
+      <img src="images/vol1.jpg">
+      <div class="caption">Travel</div>
+    </a>
+
+  </div>
+
+</div>
+
+</body>
+</html>
