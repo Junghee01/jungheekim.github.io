@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Junghee Kim</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    /* NAVBAR */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #0d1b2a;
+      padding: 15px 0;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #4cc9f0;
+    }
+
+    /* HERO */
+    header {
+      background: linear-gradient(to right, #1b263b, #415a77);
+      color: white;
+      padding: 120px 20px 80px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #4cc9f0;
+      color: black;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* SECTION */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #1b263b;
+    }
+
+    /* CARDS */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    /* ABOUT */
+    .about {
+      line-height: 1.6;
+    }
+
+    /* GALLERY */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #0d1b2a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- NAV -->
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#research">Research</a>
+  <a href="#project">Project</a>
+  <a href="#publications">Publications</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+
+<header>
+  <h1>Junghee Kim</h1>
+  <p>Machine Learning for Transportation Systems</p>
+  <p>Prospective PhD applicant focusing on mobility modeling in data-scarce environments</p>
+  <a class="btn" href="#contact">Contact Me</a>
+</header>
+
+<!-- INTERESTS -->
+
+<section>
+  <h2>Research Interests</h2>
+  <div class="grid">
+    <div class="card">Mobility Behavior Modeling</div>
+    <div class="card">ML for Resilient Transportation</div>
+    <div class="card">Network Optimization</div>
+    <div class="card">Learning under Data Scarcity</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+  <h2>About</h2>
+  <div class="about">
+    <p>Hello! I am Junghee Kim.</p>
+    <p>I focus on data-driven approaches for resilient transportation systems, especially in data-scarce environments and extreme situations.</p>
+    <p>I hold a master's degree from KAIST and have over six years of experience in the Korea Road Traffic Authority.</p>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+
+<section id="research">
+  <h2>Research</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>COVID-19 Mobility Pattern</h3>
+      <p>DTW-based clustering on subway data (Seoul, 232 stations)</p>
+      <a href="https://www.jkst.or.kr/media/sites/kst/2025-043-01/N0210430102/N0210430102.pdf">View Paper</a>
+    </div>
+
+```
+<div class="card">
+  <h3>Deep Learning Prediction</h3>
+  <p>CNN-based traffic prediction model</p>
+  <a href="https://github.com/junghee01/data-science-portfolio">GitHub</a>
+</div>
+```
+
+  </div>
+</section>
+
+<!-- PROJECT -->
+
+<section id="project">
+  <h2>Project</h2>
+  <div class="card">
+    <h3>Event-aware Transit Demand</h3>
+    <p>XGBoost-based metro congestion prediction (98% accuracy)</p>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+
+<section id="publications">
+  <h2>Publications</h2>
+  <div class="card">
+    <p>Kim et al. (2025) Time Series Cluster Analysis of Seoul Subway Usage</p>
+    <p>Kim (2024) Master's Thesis, KAIST</p>
+  </div>
+</section>
+
+<!-- GALLERY (사진 추가용) -->
+
+<section>
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300">
+    <img src="https://via.placeholder.com/300">
+    <img src="https://via.placeholder.com/300">
+  </div>
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: jung220901@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Junghee Kim</p>
+</footer>
+
+</body>
+</html>
