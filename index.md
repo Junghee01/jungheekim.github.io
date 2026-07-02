@@ -4,20 +4,22 @@ Machine Learning for Transportation Systems
 Prospective PhD applicant focusing on mobility modeling in data-scarce environments
 
 ## Research Interests
-
-- Machine Learning for Transportation Systems
-- Learning under Data Scarcity (e.g., Graph-based and Physics-informed approaches)
-- Transportation Network Optimization and Mobility Behavior Modeling
+- Mobility Behavior Modeling
+- Machine Learning for Resilient Transportation Systems
+- Transportation Network Optimization
+- Learning under Data Scarcity
 
 ## About
+Hello! I am Junghee Kim. 
+I am interested in developing data-driven and learning-based approaches for resilient transportation systems, particularly in data-scarce environments or extereme disasters.
 
-I hold a master's degree in Civil and Environmental Engineering from Korea Advanced Institute of Science and Technology (KAIST) and have over six years of experience in the public transportation sector.
+I hold a master's degree in Civil and Environmental Engineering from Korea Advanced Institute of Science and Technology (KAIST) and have over six years of experience in the Korea Road Traffic Authority.
 
-My experience includes traffic signal operations and data-driven analysis, such as identifying high-risk intersections using accident data, redesigning road infrastructure, and analyzing traffic accidents through simulation and field investigations.
-
+My work experience focused on redesigning hazardous intersections through accident data analysis, geometric improvements, and traffic signal adjustments, along with traffic accident analysis using simulation and field investigations.
+ 
+ 
 Building on this domain knowledge, I have applied machine learning to mobility data, identifying behavioral changes in subway usage during COVID-19 using DTW-based clustering and developing predictive model for transit demand under large-scale events and weather conditions.
 
-I am interested in developing data-driven and learning-based approaches for transportation systems, particularly in data-scarce environments and network optimization.
 
 ## Research
 
