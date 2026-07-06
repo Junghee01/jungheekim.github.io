@@ -38,8 +38,9 @@ h1 {
 }
 
 .trip-img2 {
-  width: 100%;
-  max-width: 400px;
+  width: 300px;        /* 👉 가로 작게 */
+  height: 200px;       /* 👉 세로 고정 */
+  object-fit: cover;   /* 👉 안 찌그러지고 꽉 채움 */
   border-radius: 15px;
   margin: 20px 0;
 }
