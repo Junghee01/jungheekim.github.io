@@ -32,3 +32,8 @@ h1 {
   display: block;
   margin: 20px auto;
 }
+
+.activity-container {
+  width: 60%;
+  margin-left: 33%;   /* 👉 왼쪽에서 1/3 띄움 */
+}
