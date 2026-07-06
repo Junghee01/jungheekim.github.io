@@ -24,3 +24,11 @@ h1 {
   display: block;
   margin: 20px auto;
 }
+
+.trip-img {
+  width: 280px;
+  height: auto;
+  border-radius: 15px;
+  display: block;
+  margin: 20px auto;
+}
