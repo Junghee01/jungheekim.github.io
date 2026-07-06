@@ -2,4 +2,4 @@
 
 This repository hosts my personal academic website.
 
-👉 Visit: [index.md](https://github.com/Junghee01/jungheekim.github.io/blob/main/index.md)
+👉 Visit: [Personal Website](https://junghee01.github.io/jungheekim.github.io/)
