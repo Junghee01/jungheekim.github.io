@@ -30,5 +30,5 @@ h1 {
   height: auto;
   border-radius: 15px;
   display: block;
-  margin: 20px 0;
+  margin: 20px 0 !important;
 }
