@@ -26,11 +26,10 @@ h1 {
 }
 
 .trip-img {
-  width: 350px;
-  height: auto;
+  width: 100%;
+  max-width: 500px;
   border-radius: 15px;
-  display: block;
-  margin: 20px auto;
+  margin: 20px 0;
 }
 
 .activity-container {
