@@ -76,7 +76,10 @@
     /* MOBILE */
     @media (max-width: 900px) {
       .sidebar {
-        display: none;
+        position: static;   /* fixed 제거 */
+        flex-direction: row; /* 가로로 */
+        justify-content: center;
+        margin: 20px 0;
       }
     }
   </style>
