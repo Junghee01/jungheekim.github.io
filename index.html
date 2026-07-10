@@ -74,28 +74,38 @@
     }
 
     /* MOBILE */
+
     @media (max-width: 900px) {
       .sidebar {
         position: static;
+        display: flex;          /* flex가 켜져 있는지 확인 */
         flex-direction: row;
         justify-content: center;
+        width: 100%;            /* 화면 전체 너비 활용 */
+        padding: 0 10px;        /* 양옆 최소 여백 */
         margin: 10px 0;
       }
-    
+      
       .sidebar a {
-        width: 140px;
+        flex: 1;                /* 6개 메뉴가 화면 너비를 균등하게 나눠 가짐 */
+        min-width: 0;           /* flex 아이템의 최소너비 제한 해제 */
+        padding: 8px 4px;       /* 위아래/좌우 간격 최적화 */
+        font-size: 13px;        /* 모바일 가독성을 위해 살짝 줄임 */
         text-align: center;
         white-space: nowrap;
+        overflow: hidden;       /* 혹시 글자가 넘치면 생략 처리 */
+        text-overflow: ellipsis; 
       }
-
+    
       .container {
-        margin: 30px auto;  /* 기존 80px → 줄이기 */
+        margin: 30px auto;
       }
-
+    
       h1 {
         margin-top: 10px;
       }
     }
+    
   </style>
 
 </head>
