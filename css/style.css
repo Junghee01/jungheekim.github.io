@@ -44,3 +44,24 @@ h1 {
   border-radius: 15px;
   margin: 20px 0;
 }
+
+
+
+.trip-img-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* 사진 사이 간격을 균등하게 */
+  gap: 10px;                     /* 사진과 사진 사이의 여백 (취향껏 조절) */
+  width: 100%;                   /* 본문 너비에 꽉 차게 */
+  margin: 20px 0;                /* 위아래 본문과의 여백 */
+}
+
+/* 2. 개별 사진 스타일 수정 */
+.trip-img3 {
+  flex: 1;                       /* 3개의 사진이 공간을 1:1:1로 균등하게 나눠 가짐 */
+  width: 32%;                    /* 한 줄에 3개가 다 들어가도록 너비 제한 (gap 고려) */
+  max-width: 100%;
+  height: auto;                  /* 가로 비율에 맞춰 세로 크기 자동 조절 */
+  object-fit: cover;             /* 사진 비율이 깨지지 않고 예쁘게 채워지도록 함 */
+  border-radius: 8px;            /* 모서리를 살짝 둥글게 (선택 사항) */
+}
